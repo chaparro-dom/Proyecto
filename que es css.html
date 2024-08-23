@@ -27,6 +27,17 @@
             background-color: #343a40;
             color: #ffffff;
         }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 15px;
+            }
+            .card {
+                margin-bottom: 20px;
+            }
+        }
+        .img-container {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body class="hold-transition sidebar-mini">
@@ -102,7 +113,7 @@
             </div>
         </aside>
 
-            <!-- Content Wrapper. Contains page content -->
+        <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header">
@@ -117,7 +128,7 @@
 
             <!-- Main content -->
             <section class="content">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
                             
@@ -150,11 +161,11 @@
                             </ul>
 
                             <div class="row mt-4">
-                                <div class="col-md-6">
+                                <div class="col-md-6 img-container">
                                     <img src="img/visual studio.jpeg" alt="Editor de CSS" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Editor de código CSS</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 img-container">
                                     <img src="img/codigo css.jpeg" alt="Código CSS" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Ejemplo de código CSS</p>
                                 </div>
@@ -171,7 +182,7 @@
 
                             <p>CSS es una herramienta esencial en el desarrollo web que permite a los diseñadores y desarrolladores crear experiencias visuales atractivas y funcionales. Su flexibilidad y poder lo convierten en un lenguaje indispensable para cualquier persona interesada en el diseño y desarrollo web.</p>
 
-                            <div class="text-center mt-4">
+                            <div class="text-center mt-4 img-container">
                                 <img src="img/paguina css.jpeg" alt="Página web con CSS" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                 <p class="mt-2">Ejemplo de página web estilizada con CSS</p>
                             </div>

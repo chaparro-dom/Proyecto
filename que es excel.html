@@ -27,6 +27,20 @@
             background-color: #343a40;
             color: #ffffff;
         }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 15px;
+            }
+            .sidebar-mini.sidebar-collapse .main-sidebar {
+                width: 4.6rem !important;
+            }
+            .sidebar-mini.sidebar-collapse .content-wrapper {
+                margin-left: 4.6rem !important;
+            }
+        }
+        .img-container {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body class="hold-transition sidebar-mini">
@@ -116,7 +130,7 @@
 
             <!-- Main content -->
             <section class="content">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
                             
@@ -149,11 +163,11 @@
                             </ul>
 
                             <div class="row mt-4">
-                                <div class="col-md-6">
+                                <div class="col-md-6 img-container">
                                     <img src="img/excel1.jpg" alt="Interfaz de Excel" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Interfaz de usuario de Excel</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 img-container">
                                     <img src="img/graficos.jpeg" alt="Gráfico en Excel" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Ejemplo de gráfico en Excel</p>
                                 </div>
@@ -170,7 +184,7 @@
 
                             <p>Excel es una herramienta versátil que puede adaptarse a casi cualquier necesidad de manejo de datos y cálculos. Su facilidad de uso, combinada con su potencia, la convierte en una aplicación indispensable en el mundo profesional moderno.</p>
 
-                            <div class="text-center mt-4">
+                            <div class="text-center mt-4 img-container">
                                 <img src="img/formulas.png" alt="Fórmulas en Excel" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                 <p class="mt-2">Ejemplo de fórmulas complejas en Excel</p>
                             </div>

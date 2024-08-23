@@ -27,6 +27,21 @@
             background-color: #343a40;
             color: #ffffff;
         }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 15px;
+            }
+            .card {
+                margin-bottom: 20px;
+            }
+        }
+        .img-container {
+            margin-bottom: 20px;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body class="hold-transition sidebar-mini">
@@ -116,7 +131,7 @@
 
             <!-- Main content -->
             <section class="content">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
                             
@@ -149,11 +164,11 @@
                             </ul>
 
                             <div class="row mt-4">
-                                <div class="col-md-6">
+                                <div class="col-md-6 img-container">
                                     <img src="img/interfaz java.jpeg" alt="Interfaz de Java" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Entorno de desarrollo Java (IDE)</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 img-container">
                                     <img src="img/codigo java.png" alt="Código en Java" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Ejemplo de código en Java</p>
                                 </div>
@@ -170,7 +185,7 @@
 
                             <p>Java es una herramienta versátil que puede adaptarse a casi cualquier necesidad de desarrollo de software. Su robustez, combinada con sus potentes funciones, la convierte en un lenguaje de programación indispensable en el mundo profesional moderno.</p>
 
-                            <div class="text-center mt-4">
+                            <div class="text-center mt-4 img-container">
                                 <img src="img/programa desarollado en java.jpeg" alt="Aplicación Java" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                 <p class="mt-2">Ejemplo de aplicación desarrollada en Java</p>
                             </div>

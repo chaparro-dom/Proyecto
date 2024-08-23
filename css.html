@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css</title>
+    <title>CSS</title>
     <link rel="icon" href="img/ICATI.png" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -31,6 +31,14 @@
             max-width: 100%;
             height: auto;
             margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 15px;
+            }
+            .card {
+                margin-bottom: 20px;
+            }
         }
     </style>
 </head>
@@ -121,7 +129,7 @@
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-lg-8 col-md-12">
                             <div class="card" id="fundamentos">
                                 <div class="card-header">
                                     <h3 class="card-title">Fundamentos de CSS (Principiante)</h3>
@@ -166,14 +174,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-12">
                             <img src="css_principiante_1.jpg" alt="CSS Principiante 1" class="level-image">
                             <img src="css_principiante_2.jpg" alt="CSS Principiante 2" class="level-image">
                         </div>
                     </div>
                     
                     <div class="row mt-4">
-                        <div class="col-md-8">
+                        <div class="col-lg-8 col-md-12">
                             <div class="card" id="avanzado">
                                 <div class="card-header">
                                     <h3 class="card-title">CSS Avanzado (Intermedio)</h3>
@@ -219,14 +227,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-12">
                             <img src="css_intermedio_1.jpg" alt="CSS Intermedio 1" class="level-image">
                             <img src="css_intermedio_2.jpg" alt="CSS Intermedio 2" class="level-image">
                         </div>
                     </div>
                     
                     <div class="row mt-4">
-                        <div class="col-md-8">
+                        <div class="col-lg-8 col-md-12">
                             <div class="card" id="moderno">
                                 <div class="card-header">
                                     <h3 class="card-title">CSS Moderno y Optimización (Avanzado)</h3>
@@ -272,7 +280,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-12">
                             <img src="css_avanzado_1.jpg" alt="CSS Avanzado 1" class="level-image">
                             <img src="css_avanzado_2.jpg" alt="CSS Avanzado 2" class="level-image">
                         </div>

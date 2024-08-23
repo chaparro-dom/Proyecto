@@ -27,6 +27,21 @@
             background-color: #343a40;
             color: #ffffff;
         }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 15px;
+            }
+            .card {
+                margin-bottom: 20px;
+            }
+        }
+        .img-container {
+            margin-bottom: 20px;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body class="hold-transition sidebar-mini">
@@ -114,7 +129,7 @@
 
             <!-- Main content -->
             <section class="content">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
                             
@@ -128,7 +143,7 @@
                                 <li>Herramientas de formato de texto y párrafo.</li>
                                 <li>Corrección ortográfica y gramatical automática.</li>
                                 <li>Inserción de imágenes, tablas y gráficos.</li>
-                                     <li>Estilos y plantillas para crear documentos con aspecto profesional.</li>
+                                <li>Estilos y plantillas para crear documentos con aspecto profesional.</li>
                                 <li>Herramientas de revisión y colaboración.</li>
                                 <li>Macros y VBA (Visual Basic for Applications) para automatizar tareas repetitivas.</li>
                                 <li>Capacidad para crear índices, tablas de contenido y bibliografías.</li>
@@ -147,11 +162,11 @@
                             </ul>
 
                             <div class="row mt-4">
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-3">
                                     <img src="img/interfaz word.png" alt="Interfaz de Word" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Interfaz de usuario de Word</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-3">
                                     <img src="img/Ejemplo de documento en Word.png" alt="Documento en Word" class="img-fluid rounded" onerror="this.onerror=null; this.src='ruta/a/imagen/por_defecto.png';">
                                     <p class="text-center mt-2">Ejemplo de documento en Word</p>
                                 </div>
