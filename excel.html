@@ -53,6 +53,12 @@
             justify-content: center;
             align-items: center;
         }
+        /* Nuevo estilo para alinear los card-body */
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     </style>
 </head>
 <body class="hold-transition sidebar-mini">
@@ -67,10 +73,15 @@
             </ul>
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item mr-3">
                     <button id="darkModeToggle" class="btn btn-secondary animate__animated animate__fadeIn">
                         <i class="fas fa-moon"></i> Modo Oscuro
                     </button>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="btn btn-primary animate__animated animate__fadeIn">
+                        <i class="fas fa-envelope"></i> Contáctanos
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -185,12 +196,19 @@
                                             </ul>
                                         </li>
                                     </ul>
+                                    <div class="mt-4">
+                                        <a href="excel basico.html" class="btn btn-primary">Ver Contenido del Curso</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12">
-                            <img src="excel_principiante_1.jpg" alt="Excel Principiante 1" class="level-image">
-                            <img src="excel_principiante_2.jpg" alt="Excel Principiante 2" class="level-image">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/excel basico.png" alt="Excel Principiante 1" class="level-image img-fluid mb-3" style="width: 100%; height: auto;">
+                                    <img src="img/excel basico2.png" alt="Excel Principiante 2" class="level-image img-fluid" style="width: 100%; height: auto;">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -236,14 +254,21 @@
                                                 <li>Gráficos avanzados y sparklines</li>
                                                 <li>Validación de datos</li>
                                             </ul>
-                                        </li>
+                                        </li> 
                                     </ul>
+                                    <div class="mt-4">
+                                        <a href="excel intermedio.html" class="btn btn-primary">Ver Contenido del Curso</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12">
-                            <img src="excel_intermedio_1.jpg" alt="Excel Intermedio 1" class="level-image">
-                            <img src="excel_intermedio_2.jpg" alt="Excel Intermedio 2" class="level-image">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <img src="img/excel intermedio .png" alt="Excel Intermedio 1" class="level-image mb-4 img-fluid" style="width: 100%; height: auto;">
+                                    <img src="img/excel intermedio 2.png" alt="Excel Intermedio 2" class="level-image img-fluid" style="width: 100%; height: auto;">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -255,48 +280,55 @@
                                 </div>
                                 <div class="card-body">
                                     <ul>
-                                        <li>Power Query
+                                        <li>Power Query y Gestión de Datos
                                             <ul>
                                                 <li>Importación y transformación de datos</li>
                                                 <li>Combinación y limpieza de datos</li>
-                                                <li>Actualización automática de datos</li>
+                                                <li>Actualización automática y refrescado de datos</li>
                                             </ul>
                                         </li>
-                                        <li>Power Pivot
+                                        <li>Power Pivot y Modelado de Datos
                                             <ul>
-                                                <li>Modelado de datos</li>
-                                                <li>DAX (Data Analysis Expressions)</li>
-                                                <li>Creación de KPIs</li>
+                                                <li>Creación de modelos de datos relacionales</li>
+                                                <li>DAX (Data Analysis Expressions) avanzado</li>
+                                                <li>Diseño y implementación de KPIs</li>
                                             </ul>
                                         </li>
-                                        <li>VBA avanzado
+                                        <li>Programación Avanzada con VBA
                                             <ul>
                                                 <li>Programación orientada a objetos en VBA</li>
-                                                <li>Creación de funciones personalizadas</li>
-                                                <li>Interacción con otras aplicaciones de Office</li>
+                                                <li>Desarrollo de funciones personalizadas</li>
+                                                <li>Integración con otras aplicaciones de Office</li>
                                             </ul>
                                         </li>
-                                        <li>Automatización y optimización
+                                        <li>Automatización y Optimización de Procesos
                                             <ul>
-                                                <li>Creación de dashboards interactivos</li>
-                                                <li>Optimización de fórmulas y macros</li>
-                                                <li>Seguridad y protección de datos</li>
+                                                <li>Creación de dashboards dinámicos e interactivos</li>
+                                                <li>Optimización de rendimiento en fórmulas y macros</li>
+                                                <li>Implementación de seguridad y protección de datos</li>
                                             </ul>
                                         </li>
-                                        <li>Excel y Business Intelligence
+                                        <li>Excel en Business Intelligence
                                             <ul>
-                                                <li>Conexión con fuentes de datos externas</li>
-                                                <li>Power BI Desktop y Excel</li>
-                                                <li>Publicación y compartición de informes</li>
+                                                <li>Conexión y análisis de fuentes de datos externas</li>
+                                                <li>Integración entre Power BI Desktop y Excel</li>
+                                                <li>Creación, publicación y compartición de informes avanzados</li>
                                             </ul>
                                         </li>
                                     </ul>
+                                    <div class="mt-4">
+                                        <a href="excel avanzado.html" class="btn btn-primary">Ver Contenido del Curso</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12">
-                            <img src="excel_avanzado_1.jpg" alt="Excel Avanzado 1" class="level-image">
-                            <img src="excel_avanzado_2.jpg" alt="Excel Avanzado 2" class="level-image">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <img src="img/excel avanzado.png" alt="Excel Avanzado - Power Query y Power Pivot" class="level-image mb-4 img-fluid" style="width: 100%; height: auto;">
+                                    <img src="img/vba.png" alt="Excel Avanzado - Dashboards y BI" class="level-image img-fluid" style="width: 100%; height: auto;">
+                                </div>
+                            </div>
                         </div>
                     </div>
 
